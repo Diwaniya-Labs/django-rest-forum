@@ -10,7 +10,7 @@ setup(
     version='0.1.1',
     author='Mo Mughrabi',
     author_email='mo.mughrabi@gmail.com',
-    url='https://github.com/',
+    url='https://github.com/Diwaniya-Labs/django-rest-forum',
     description='Web pages capture using Django & CasperJS',
     long_description=open(os.path.join(here, 'README.rst')).read() + '\n\n' + 
                      open(os.path.join(here, 'CHANGES')).read(),

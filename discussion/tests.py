@@ -14,12 +14,10 @@ from models import Announcement
 
 class AnnouncementTestCase(TestCase):
     """AnnouncementTestCase"""
-    fixtures = ['users.json', ]
 
     def setUp(self):
         """ AnnouncementTestCase setup / creating user's pragmatically via objects api """
         self.c = APIClient()
-        management.call_command('fixture_groups_permissions')
         User.objects.create_user(username="lion", email="roar@gmail.com", password="password")
         User.objects.create_guest(username="cat")
         self.register_users_via_api()
@@ -91,12 +89,10 @@ class AnnouncementTestCase(TestCase):
 
 class PostTestCase(TestCase):
     """PostTestCase"""
-    fixtures = ['users.json', 'categories.json']
 
     def setUp(self):
         """ PostTestCase setup / creating user's pragmatically via objects api """
         self.c = APIClient()
-        management.call_command('fixture_groups_permissions')
         User.objects.create_user(username="lion", email="roar@gmail.com", password="password")
         User.objects.create_guest(username="cat")
         self.register_users_via_api()
