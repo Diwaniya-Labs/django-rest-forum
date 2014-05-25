@@ -1,0 +1,15 @@
+*.pyc
+.idea/*
+public_media/*
+public_assets/*
+local_env.py
+search_index/*
+celerybeat-schedule
+celerybeat-schedule.db
+.DS_Store
+CACHE/*
+celeryev.pid
+notes.txt
+tmp/*
+settings/default.pem
+celeryev.pid
