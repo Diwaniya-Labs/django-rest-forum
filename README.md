@@ -8,9 +8,9 @@ is a minimalistic discussion form entirely rest API based.
 Installation
 ------------
 
-install using ``pip``::
+install using ``pip``:
 
-    pip install -e git+git://Diwaniya-Labs/django-rest-forum/#egg=discussion
+    pip install -e git+git://github.com/Diwaniya-Labs/django-rest-forum/#egg=discussion
 
 Configuration
 -------------

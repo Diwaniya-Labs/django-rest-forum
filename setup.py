@@ -12,7 +12,7 @@ setup(
     author_email='mo.mughrabi@gmail.com',
     url='https://github.com/Diwaniya-Labs/django-rest-forum',
     description='Minimalistic discussion form entirely rest API based',
-    long_description=open(os.path.join(here, 'README.rst')).read() + '\n\n' +
+    long_description=open(os.path.join(here, 'README.md')).read() + '\n\n' +
                      open(os.path.join(here, 'CHANGES')).read(),
     license='LPGL, see LICENSE file.',
     install_requires = ['Django', 'djangorestframework'],
