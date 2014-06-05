@@ -37,7 +37,7 @@ class Post(models.Model):
     body = models.TextField(_('Body'), )
     reply_to = models.ForeignKey('self', blank=True, null=True, related_name='child')
     created_at = models.DateTimeField(auto_now_add=True)
-    created_by = models.ForeignKey(getattr(settings, 'AUTH_USER_MODEL'))
+    created_by = models.ForeignKey(getattr(settings, 'AUTH_USER_MODEL'), related_name='posts')
 
     def __str__(self):
         # Use django.utils.encoding.force_bytes() because value returned is unicode
