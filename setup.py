@@ -11,11 +11,11 @@ setup(
     author='Mo Mughrabi',
     author_email='mo.mughrabi@gmail.com',
     url='https://github.com/Diwaniya-Labs/django-rest-forum',
-    description='Web pages capture using Django & CasperJS',
-    long_description=open(os.path.join(here, 'README.rst')).read() + '\n\n' + 
+    description='Minimalistic discussion form entirely rest API based',
+    long_description=open(os.path.join(here, 'README.rst')).read() + '\n\n' +
                      open(os.path.join(here, 'CHANGES')).read(),
     license='LPGL, see LICENSE file.',
-    install_requires = ['Django'],
+    install_requires = ['Django', 'djangorestframework'],
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
@@ -23,5 +23,10 @@ setup(
                     'Operating System :: OS Independent',
                     'Environment :: Web Environment',
                     'Framework :: Django',
-                    'Programming Language :: Python :: 2.7'],
+                    'Programming Language :: Python',
+                    'Programming Language :: Python :: 2.6',
+                    'Programming Language :: Python :: 2.7'
+                    'Programming Language :: Python :: 3.2',
+                    'Programming Language :: Python :: 3.3',
+                    'Topic :: Utilities'],
 )

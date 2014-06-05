@@ -2,50 +2,10 @@
 CHANGELOG
 =========
 
-0.3.2 (unreleased)
+0.1.2 (unreleased)
 ==================
 
-- Nothing changed yet.
-
-
-0.3.1 (2014-01-31)
-==================
-
-* Fix requirement spelling
-
-
-0.3.0 (2013-09-05)
-==================
-
-* Return appropriate HTTP responses on parameter errors (400)
-* Better processing of capture errors, not for remote JS yet. (ref #1)
-* Save temporary file step is specified output for ``casperjs_capture`` is a filepath
-* Add a *screamshotter* orphan branch, as a demo Django project
-* Ability to control image format (other than ``png`` or ``html``)
-
-
-0.2.0 (2013-08-18)
-==================
-
-* CASPERJS_CMD setting to bypass PATH lookup
-* Query ``crop`` parameter to control resize
-* Query ``size`` parameter to control image size
-* Query ``render`` parameter to control output format
-* Remove ``remote.message`` loging
-* Query ``waitFor`` parameter to control capture timing
-* Inject *screamshot* class on *body* to allow capture styling
-* Use capture instead of captureSelector if no selector provided
-* Query parameters to control viewport size
-* Ability to add extra command-line arguments
-* Updated CasperJS CLI status code
-* Detect forwarded IP address in login decorator
-
-0.1.1 (2012-04-17)
-==================
-
-* Include package data
-
-0.1.0 (2012-04-17)
+0.1.1 (2014-06-10)
 ==================
 
 * Initial working version
